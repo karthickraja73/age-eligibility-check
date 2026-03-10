@@ -1,0 +1,13 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print("\nHello", name)
+
+if age < 16:
+    print("❌ You are not eligible to drive any vehicle.")
+elif age >= 16 and age < 18:
+    print("⚠️ You can apply for a Learner's License (Two-wheeler only).")
+elif age >= 18 and age < 60:
+    print("✅ You are eligible for a Driving License.")
+else:
+    print("✅ You are eligible to drive, but medical fitness may be required.")
